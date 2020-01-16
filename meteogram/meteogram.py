@@ -198,3 +198,27 @@ def plot_meteogram(df):
     ax2b.set_ylabel('Degrees', fontsize=label_fontsize)
 
     return fig, ax1, ax2, ax2b
+
+
+def wind_components(windspeed, wind_direction):
+    """Calculate the U, V wind vector components from the speed and direction.
+
+    Parameters
+    ----------
+    windspeed : array_like
+        The wind speed (magnitude)
+    wind_direction : array_like
+        The wind direction, specified as the direction from which the wind is
+        blowing (0-360 degrees), with 360 degrees being North.
+
+    Returns
+    -------
+    u, v : tuple of array_like
+        The wind components in the X (East-West) and Y (North-South)
+        directions, respectively.
+
+    """
+    wind_direction_in_radians = np.radians(wind_direction)
+    u = - windspeed * np.sin(wind_direction_in_radians)
+    v = - windspeed * np.cos(wind_direction_in_radians)
+    return u, v

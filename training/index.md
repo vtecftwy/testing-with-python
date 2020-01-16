@@ -34,27 +34,27 @@ This is an **intermediate** skill level course. We assume that participants:
 - Have a GitHub account.
 
 ## Course Outline
-- [Setup and Introductions](setup.html)
+- [Setup and Introductions](setup.md)
   - Meet each other.
   - Ensure that all learner's machines are setup properly with course content
     downloaded and the environment created and activated.
   - Introduce the example library we will be testing during the course.
 - Introduction to Testing
-  - [Testing Basics](testing_basics.html)
-  - [Testing Philosophy](testing_philosophy.html)
-  - [Mocking](mocking.html)
-  - [Test Helpers](test_helpers.html)
+  - [Testing Basics](testing_basics.md)
+  - [Testing Philosophy](testing_philosophy.md)
+  - [Mocking](mocking.md)
+  - [Test Helpers](test_helpers.md)
 - Coverage
-  - [Determining coverage](coverage.html)
+  - [Determining coverage](coverage.md)
 - Advanced PyTest
-  - [Image Testing](pytest-mpl.html)
-  - [Fixtures](fixtures.html)
-  - [Parameterization](parameterization.html)
-  - [Mocking Web Requests](mocking_web_requests.html)
+  - [Image Testing](pytest-mpl.md)
+  - [Fixtures](fixtures.md)
+  - [Parameterization](parameterization.md)
+  - [Mocking Web Requests](mocking_web_requests.md)
   - [Testing for Exceptions](error_testing.md)
 - Test Driven Development
-  - [Test Driven Development Introduction](TDD_intro.html)
-- [Conclusion](conclusion.html)
+  - [Test Driven Development Introduction](TDD_intro.md)
+- [Conclusion](conclusion.md)
   - Questions
   - Resources
   - Survey
